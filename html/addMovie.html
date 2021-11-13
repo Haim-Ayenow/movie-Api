@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="../css/addMovie.css">
+  <script src="https://kit.fontawesome.com/30a5b38332.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="grid">
+    <header>
+        <section id="headerContainer">
+            <article id="logos">
+        <img src="indi.jpeg" alt="">
+         <a href="https://www.tech-career.org/"><img src="techCareer.jpeg" alt="" id="careerImg"></a>
+           </article>
+        <nav id="navBar">
+                <li><a href="../homePage.html">Home</a></li>
+                <h3 style="color: white;border-bottom: 3px solid white;">add a movie</h3>
+                <li><a href="html/table.html">Movie Details<table></table></a></li>
+        </nav>
+     </section>
+    </header>
+    <main>
+   
+    <section id="formContainer">
+        <form id="postMovieForm">
+            <label>Movie Name:</label><br>
+            <input type="text" id="movieName"><br>
+            <label>Movie Image:</label><br>
+            <input type="text" id="image"><br>
+            <label>Movie Link:</label><br>
+            <input type="text" id="linkToMovie"><br>
+            <label>Movie Synopsis:</label><br>
+            <input type="text" id="synopsis"><br>
+            <label>Movie Rating:</label><br>
+            <input min="1" max="10" type="number" id="rating"><br>
+            <button id="addMovie" type="button">SEND</button><br>
+        </form>
+    </section>
+</main>
+    <footer>
+     <section id="footerContainer">
+            <section>
+                <div id="footerText">
+                    <h1>visit us on:</h1>
+                </div>
+                <div id="icons">
+                    <i class="fab fa-github-square"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+ </section>
+     </footer>
+    </section>
+    <script src="../js/addMovie.js" type="text/javascript"></script>
+</body>
+</html>

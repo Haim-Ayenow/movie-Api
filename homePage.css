@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg");
+    background-attachment: fixed;
+  }
+#grid{
+    display: grid;
+    grid-template-rows: 15vh 75vh 10vh;
+}
+#headerContainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.822); */
+    width: 100%;
+    height: 100%;
+}
+#logos,#navBar{
+width: 100%;
+height: 50%;
+}
+#navBar{
+   display: flex; 
+   justify-content:space-evenly;
+   list-style-type: none; 
+   font-size: larger;
+  text-decoration: none;
+}
+#navBar a{
+    color: white;
+    text-decoration: none;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logos img{
+    height: 100%;  
+    border-radius: 10%;
+}
+#logos a img{
+width: 100%;
+
+}
+#logos{
+    display: flex;
+    justify-content:space-between;
+}
+#moviesContainer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+#footerContainer{
+    display: flex;
+ flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+#contact{
+    display: flex;
+    justify-content: center; 
+    width:100%;
+    height: 70%;
+    background-color: black;
+
+}
+#contact img{
+
+    width:60px;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+#visit{
+    width: 100%;
+    text-align: center;
+    height: 30%;
+    color: white;
+    background-color: black;
+}
